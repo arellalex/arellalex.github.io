@@ -1,0 +1,54 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  background: url(pink.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr {
+  color: aliceblue;
+  border: 2px solid;
+  max-width: 80px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  color: #e2dbdb;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.buffer {
+  height: 5rem;
+}
+
+.btn-xl {
+  padding: 1rem 1rem;
+  font-weight: 600;
+  border-radius: 300px;
+  text-transform: uppercase;
+  background-color: rgba(255, 199, 221, 0.8); /*opaque light pink*/
+  border: none;
+  transition: all 0.2s ease-in-out;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn-xl:hover {
+  background-color: #fec0ce; /*light pink*/
+  transform: scale(1.05);
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
